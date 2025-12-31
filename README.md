@@ -14,7 +14,7 @@ Este repositório tem como objetivo documentar e compartilhar o aprendizado em P
 
 ## 📖 Conteúdo
 
-Este repositório contém exercícios práticos que abordam conceitos fundamentais de programação em PHP, desenvolvidos durante o primeiro semestre letivo.
+Este repositório conterá exercícios práticos que abordam conceitos fundamentais de programação em PHP, desenvolvidos durante o primeiro semestre letivo. Os exercícios serão adicionados conforme forem desenvolvidos ao longo do curso.
 
 ## 🚀 Como Usar
 
@@ -29,14 +29,14 @@ Para executar os exercícios deste repositório, você precisará:
    cd LP_IV_3.1
    ```
 
-3. Execute os arquivos PHP:
+3. Execute os arquivos PHP (quando disponíveis):
    ```bash
    php nome_do_arquivo.php
    ```
 
 ## 📝 Estrutura do Projeto
 
-Os exercícios estão organizados de acordo com os tópicos abordados durante o semestre, facilitando a navegação e consulta.
+Os exercícios serão organizados de acordo com os tópicos abordados durante o semestre, facilitando a navegação e consulta conforme forem adicionados.
 
 ## 🎓 Contexto Acadêmico
 
