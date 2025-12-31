@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <?php
+        if(isset($_GET["erro"])){
+        $erro = $_GET["erro"];
+        if($erro == 1){
+            echo ("Email/senha inválidos");
+        }
+        else if($erro == 2){
+            echo ("Email Errado");
+        }
+        else if($erro == 3){
+            echo ("Senha Errada");
+        }
+        }
+    ?>
+    <form action="pagina.php" method="post">
+        Nome do animal: <input type="text" name="nome"> <br>
+        Idade do animal: <input type="text" name="idade"><br>
+        Peso do animal: <input type="text" name="peso"> <br>
+        Raça do animal: <input type="text" name="raca"> <br>
+        Altura do animal: <input type="text" name="altura"> <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

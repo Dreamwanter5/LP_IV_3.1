@@ -1,0 +1,36 @@
+<!-- Código do professor! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="pagina.php" method="POST">
+        <!-- Esses "Type" foram acrescentados depois, para ajudar a tornar o input algo mais específico -->
+        <input type="text" name="nome"/><br>
+        <input type="number" name="idade"/><br>
+        <input type="number" name="altura"/><br>
+        <!-- O tipo abaixo deixa o texto em bolinhass -->
+        <input type="password" name="Senha"/>  <br>
+        <!-- Esse outro exige um "@" no texto inserido -->
+        <input type="email" name="email"/><br>
+        <!-- Possibilita a  entrada de datas -->
+        <input type="date" name="data"/><br>
+        <!-- Auto explicativo, é uma cor que entrega informações em hexadecimal -->
+        <input type="color" name="cor"/><br>
+        <!-- Escolher apenas uma das opções feitas -->
+        <input type="radio" name="curso" value="alimentos">   Alimentos<br>
+        <input type="radio" name="curso" value="Eletrotécnica"> Eletrotécnica<br>
+        <input type="radio" name="curso" value="informática"> Informática<br>
+
+        <!-- é preciso escrever deste modo pois caso contrário, o input "radio" apenas devolverá informações de "on/off" -->
+        <!-- assim é possível colocar um textinho para acompanhar -->
+
+        <textarea name="descricao"></textarea>
+        <button>Envio</button>
+    </form>
+</body>
+</html>

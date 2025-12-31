@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="pagina.php">
+        <h2>Cadastro de Carro</h2>
+        <br>
+        Placa do Carro: 
+        <br><input type="text" id="placa" name="placa" required>
+        
+        <br>Eficiência (km/l):
+        <br><input type="number" id="eficiencia" name="eficiencia" step="0.1" required>
+        
+        <br>Tamanho do Tanque (litros):
+        <br><input type="number" id="tamanho_tanque" name="tamanho_tanque" step="0.1" required>
+        
+        <br>Ano:
+        <br><input type="number" id="ano" name="ano" required>
+        
+        <br>Distância da Viagem (km):
+        <br><input type="number" id="distancia" name="distancia" required>
+        
+        <br><br><button>Calcular Paradas</button>
+    </form>
+
+</body>
+</html>
